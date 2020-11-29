@@ -1,0 +1,53 @@
+.leaf-container {
+  list-style: none;
+}
+.leaf-container .open-bracket {
+  cursor: pointer;
+  display: flex;
+}
+
+.leaf-container .open-bracket,
+.leaf-container .close-bracket {
+  display: flex;
+}
+
+.leaf-container .open-bracket > div:nth-child(1) {
+  padding: 0px 5px;
+  border: 1px inset rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.5em;
+  font-size: small;
+}
+
+.leaf-container .open-bracket > div:nth-child(1) > b {
+  margin-bottom: 50%;
+}
+
+.leaf-container ul {
+  margin-left: 1em;
+}
+
+.leaf-container.parent.opened {
+  text-align: left;
+}
+
+.leaf-container.parent.opened > li {
+  border-left: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.leaf-container.parent.opened > li.array-value {
+  text-align: left;
+  padding-left: 1em;
+}
+
+.leaf-container.parent.opened > li .title,
+.leaf-container.parent.opened > li .scalar-value {
+  font-weight: bold;
+}
+
+.leaf-container.parent.opened > li .scalar-value {
+  color: green;
+}

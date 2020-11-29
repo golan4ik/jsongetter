@@ -1,0 +1,10 @@
+.input-box-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.input-box-wrapper .input-box-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}

@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.data-container {
+  display: block;
+}
+
+.data-container .data-content {
+  display: flex;
+}

@@ -1,0 +1,30 @@
+{
+  "id": "5fc3d0f915c11f661557296e",
+  "group": "exercitation",
+  "isActive": true,
+  "age": 31,
+  "name": {
+    "first": "id",
+    "last": "laboris"
+  },
+  "nested": {
+    "nested1": [1, 2, 3, 4, 5],
+    "nested2": {
+      "value1": "test",
+      "value2": "test2"
+    }
+  },
+  "employees": [
+    {
+      "id": "5fc3d0f957a3994d4fa5e027",
+      "group": "reprehenderit",
+      "isActive": true,
+      "age": 32,
+      "name": {
+        "first": "consectetur",
+        "last": "ex"
+      },
+      "employees": []
+    }
+  ]
+}
